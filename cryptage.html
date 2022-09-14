@@ -1,0 +1,55 @@
+<!DOCTYPEhtml>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Crypte et Décrypte tes données !</title>
+		<link href="cryptage.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1>Viens découvrir comment sont cryptées tes données ^_^ </h1>
+	<p> L'informatique a énormément évolué depuis ces dernières années. Elle est maintenant au coeur même de beaucoup de sociétés et de particuliers ce qui a permis une ouverture incroyable sur le monde.</p> 
+
+		<p> Cependant, les attaques informatiques se sont multipliés et on ne compte plus le nombre de rançons que certaines personnes ont du déboursé pour récupérer des informations sensibles. Le but de cette page web est de vous montrer les différents moyens de cryptage, c'est-à-dire l'ensemble des moyens de protection d'une information afin que vous puissez dormir tranquille la nuit ;)</p>
+		<p> On va maintenant aborder différentes méthodes de cryptographies <br /> Prêt ? <mark>MODE HACKER ACTIVÉ</mark></p>
+	
+		<ul>
+			<li><h2><a href="#cesar">Le chiffrement de César</a></h2></li>
+			<li><h2><a href="#xor">Le chiffrement XOR</a></h2></li>
+		</ul>
+	
+
+		<figure>
+			<img src="tete_de_mort.gif" alt="HACKER">
+		</figure>
+	
+		<h2 id="cesar" class="titre">Le chiffrement de César</h2>
+
+		<p> Le code César est un chiffrement basé sur un décalage de l'alphabet, il s'agit d'une substitution monoalphabétique, c'est-à-dire qu'une même lettre n'est remplacée que par une seule autre.Par exemple, le mot "zoo" se transforme en "crr" 3 lettres plus loin dans l'alphabet. On a donc 25 possibilités différentes pour crypter un message, ce qui fait qu'il n'est jamais utilisé en informatique car beaucoup trop facile à décrypter.</p>
+		<figure>
+			<img src="cesar_image.png" alt="Chiffrement de César">
+		</figure>
+		<p> A votre tour d'essayer ! <a href="https://trinket.io/python3/fed68e6a9f">codabrainy.com</a></p>
+		<br />
+
+		<h2 id="xor" class="titre">Le chiffrement XOR</h2>
+
+		<p>En informatique, chaque caractère du message à coder est représenté par un entier, le code ASCII. Ce nombre est lui-même représenté en mémoire comme un nombre binaire à 8 chiffres (les bits). On choisit une clé que l'on place en dessous du message à coder, en la répétant autant de fois que nécessaire. Le message et la clé étant converti en binaire, on effectue un XOR, bit par bit, le 1 représentant VRAI et le 0 FAUX. Le résultat en binaire peut être reconverti en caractères ASCII et donne alors le message codé. L'algorithme est complètement symétrique : la même opération est réappliqué au message final pour retrouver le message initial. </p>
+
+		<figure>
+			<img src="xor.jpg" alt="tableau xor">
+		</figure>
+
+		<p> A votre tour d'essayer ! <a href="https://trinket.io/python3/3dd3e0f824">codabrainy.com</a></p> <br />
+		<p class="blanc">Projet de NSI 2021 réalisé par Alban, Thomas et Anthonin</p>
+
+
+
+
+
+
+
+
+	</body>
+</html>

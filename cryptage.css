@@ -1,0 +1,51 @@
+body
+{
+	background-color:black;
+	color:rgb(0,255,64);
+
+}
+
+p
+{
+	font-size:1.22em;
+	text-shadow:1px 1px 1px rgb(0,255,64);
+	text-align:justify;
+	width: 800px;
+
+}
+
+a:hover
+{
+	color:red; 
+}
+
+a
+{
+	color:white;
+}
+.titre
+{
+	color:red;
+	border: 2px outset white;
+	border-radius:3px ;
+}
+
+
+h1
+{
+	border: 3px dashed white;
+	width:800px;
+	margin:auto;
+	padding:2px;
+}
+
+h2
+{
+	padding-right: 1px;
+}
+
+.blanc
+{
+	color:white;
+}
+
